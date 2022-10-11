@@ -14,6 +14,7 @@ To avoid people's solutions conflicting and causing confusion, each question wil
 5. After you have finished, go to GitHub.com, find your branch on this repo and submit a "Pull Request" 
     - _a pull request is a request to have your branch merged with the master branch_
 6. I'll approve your commit (hopefully) and it'll get merged into `kes-rt-2022/master`, so other people can download and view it.
+    - _technically anyone can rebase off any branch so you dont have to submit a pull request to master to share your code with a friend_
 
 ## Re-Syncing your branch
 Your branch remains static in relation to the master from the moment it is created or updated.  This means you cannot fetch any changes that are made to `kes-rt-2022` directly by just fetching.
