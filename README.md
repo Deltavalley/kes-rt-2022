@@ -2,19 +2,19 @@
 Solutions to rt 2022 problems 
 
 ## Contribution rules
-To avoid people's solutions conflicting and causing confusion, each question will have its own folder.  In that folder, create a folder with your name (eg "adam smith") to save your work into.  You can make changes to other people's code but it has to be when you make a merge request.
+To avoid people's solutions conflicting and causing confusion, each question will have its own folder.  In that folder, create a folder with your name (eg "adam smith") to save your work into.  You can make changes to other people's code but only through a pull request.
 
 ## Contributing
 1. Create a GitHub account and login
-2. Fork `kes-rt-2022` (this repo)
-    - _this is like remix in scratch, you copy the repo to your GitHub profile_
-3. Go to your IDE of choice and clone your forked repo 
-    - _this is downloading it to your local machine so you can edit it_
-4. Code (or dont..?) however you want, you can make as many commits as you want since its your own repo
-5. After you have finished, go to GitHub.com and find **your forked repo**
-6. Press "Contribute" then "Make a pull request".  Leave a comment alongside your commit message
-7. I'll approve your commit (hopefully) and it'll get merged into `kes-rt-2022`
+2. Clone `kes-rt-2022` (this repo) into your IDE of choice (the link is: `https://github.com/Deltavalley/kes-rt-2022/`)
+    - _this will clone the main branch, which has restricted write permission_
+3. Go to your IDE of choice and create a new branch called your name (eg "adam-smith")
+    - _this is copying the main branch. you can change this copy_
+4. Code (or dont..?) however you want, you can make as many commits as you want since its your own branch
+5. After you have finished, go to GitHub.com, find your branch on this repo and submit a "Pull Request" 
+    - _a pull request is a request to have your branch merged with the master branch_
+6. I'll approve your commit (hopefully) and it'll get merged into `kes-rt-2022/master`, so other people can download and view it.
 
-## Re-Syncing your fork
-Your fork remains static in relation to this repo from the moment it is created or updated.  This means you cannot fetch any changes that are made to `kes-rt-2022` directly.
-To fetch changes made to `kes-rt-2022` you need to visit the GitHub.com page for your fork and press "Sync fork".  After this, your fork will update to the latest version of the repo.
+## Re-Syncing your branch
+Your branch remains static in relation to the master from the moment it is created or updated.  This means you cannot fetch any changes that are made to `kes-rt-2022` directly by just fetching.
+To fetch changes made to `kes-rt-2022/master` into your branch, you need to "Rebase" your branch onto master.  After this, your branch will update to the latest version of the repo.  You will lose any changes to your branch that have not been committed and approved.
