@@ -16,6 +16,12 @@ To avoid people's solutions conflicting and causing confusion, each question wil
 6. I'll approve your commit (hopefully) and it'll get merged into `kes-rt-2022/master`, so other people can download and view it.
     - _technically anyone can rebase off any branch so you dont have to submit a pull request to master to share your code with a friend_
 
-## Re-Syncing your branch
-Your branch remains static in relation to the master from the moment it is created or updated.  This means you cannot fetch any changes that are made to `kes-rt-2022` directly by just fetching.
-To fetch changes made to `kes-rt-2022/master` into your branch, you need to "Rebase" your branch onto master.  After this, your branch will update to the latest version of the repo.  You will lose any changes to your branch that have not been committed and approved.
+## Resetting your branch
+Your branch remains static in relation to the `master` branch from the moment it is created or reset.  This means you cannot fetch any changes that are made to `kes-rt-2022` directly by just fetching your branch.
+To fetch changes made to `kes-rt-2022/master` into your branch, you need to reset your branch.  This updates your branch to the latest version of `kes-rt-2022/master`.  You will lose any changes to your branch that have not been committed and approved.  
+To reset your branch in VS2022:
+1. In the top bar, go to `Git>Manage Branches`
+2. On the left panel, right click the `master` branch and press "Checkout"
+3. Right click the `master` branch and press pull
+4. Right click your branch and press `Reset>Delete Changes (--hard)`
+5. Confirm your choice
